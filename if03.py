@@ -8,8 +8,9 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    if (a >= b and a <= c) or (a >= c and a <= b):
+    if a >= b and a <= c:
         return a
-    if (b >= a and b <= c) or (b >= c and b <= a):
+    if b >= a and b <= c:
         return b
-    return 
+    return c
+print(main(6,5,9))
